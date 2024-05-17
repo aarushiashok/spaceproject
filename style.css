@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+body {
+    background: url("https://cdn.pixabay.com/photo/2019/11/07/17/07/universe-4609408_1280.jpg");
+    font-family: "Noto Sans", sans-serif;
+    width: 100vw;
+    height: 100vh;
+    background-size: 100%, 100%
+}
+
+#astronaut {
+    position: absolute;
+    top: 40%;
+    left: 35%;
+    animation: floating 5s infinite ease-in-out;
+}
+
+@keyframes floating {
+    0% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(40px);
+    }
+}
+
+.block-display {
+    display: block;
+}
+
+form {
+    position: absolute;
+    top: 25%;
+    left: 70%;
+    background-attachment: white;
+    padding: 0px 55px;
+    border-radius: 5px;
+}
+
+h1 {
+    text-align: center;
+}
+
+label {
+    font-size: 18px;
+    margin: 20px 0px 4px 0px;
+}
+
+#button {
+    display: block;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    padding: 15px 20px;
+    margin: 40px auto;
+}
+
+input[type="number"],
+input[type="text"],
+input[type="email"],
+select {
+    width: 300px;
+    height: 40px;
+    border: 1px solid black;
+    padding: 0px 5px;
+}
+
+.rent-label {
+    margin-right: 10px;
+}

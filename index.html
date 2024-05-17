@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application to your spacetrip</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <img id="astronaut" src="https://static.vecteezy.com/system/resources/thumbnails/023/529/526/small_2x/astronaut-floating-in-space-ai-generated-png.png" alt="">
+    <form action="">
+        <h1>Rocket around the moon with your BFFs</h1>
+        <label for="country">Departure Country</label>
+        <!-- DropDown -->
+        <select name="countries" class="block-display" id="countries">
+            <option value="india">India</option>
+            <option value="usa">USA</option>
+            <option value="uae">UAE</option>
+        </select>
+        <label for="travellers" class="block-display">No of space travellers</label>
+        <input type="number" name="travellers" id="travellers">
+        <label for="email" class="block-display">your email</label>
+        <input type="email" name="email" id="email" placeholder="ilovespace@gmail.com">
+        <label for="rent" class="block-display">Do you want to rent a spacesuit?</label>
+        <input type="radio" name="yes" id="yes">
+        <label for="Yes" class="rent-label">yes please</label>
+        <input type="radio" name="no" id="no">
+        <label for="no" class="rent-label">No, I have my own</label>
+        <input type="submit" value="take us to space" id="button">
+    </form>
+    <script src="./app.js"></script>
+
+
+</body>
+
+</html>
